@@ -10,6 +10,7 @@
 		0070B9AFF241CBAA394F759A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E63B16825D1D62A166411FE4 /* Foundation.framework */; };
 		06BC186A9150A3775DD4F327 /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3374A3318BA0EABECB9FAE6E /* libPods-unit_tests.a */; };
 		1BF8D06EE16CCE36E66279CD /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = D73A265740B69AF9872D117F /* LaunchScreen.xib */; };
+		4D1719B41BA8C9F600C8ED1C /* FISAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1719B31BA8C9F600C8ED1C /* FISAppDelegateSpec.m */; };
 		5A2BC7F419A7E4069A2D480C /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 170BA10CE32B2647F85950FE /* FISAppDelegate.m */; };
 		5B89BBCE389387DBB12672FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421DDCAC4E070E660E9AED8B /* Images.xcassets */; };
 		6CDC06ACA2FB97DF19A5B4D6 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = A72462C7B33982C17CDAEDD4 /* Main.storyboard */; };
@@ -32,6 +33,7 @@
 		3374A3318BA0EABECB9FAE6E /* libPods-unit_tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-unit_tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		421DDCAC4E070E660E9AED8B /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		4357AA5488F7728860176405 /* Pods-unit_tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unit_tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unit_tests/Pods-unit_tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4D1719B31BA8C9F600C8ED1C /* FISAppDelegateSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegateSpec.m; sourceTree = "<group>"; };
 		4EFE31D48121EE1D66DE7E58 /* UnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DF043C749C2AD79E8742E01 /* UnitTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
 		5E86601B6A4184FC2D9E0074 /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
@@ -166,6 +168,7 @@
 		F62E54212DBAD021EC5EDBEE /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				4D1719B31BA8C9F600C8ED1C /* FISAppDelegateSpec.m */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1719B41BA8C9F600C8ED1C /* FISAppDelegateSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
