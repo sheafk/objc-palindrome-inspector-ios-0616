@@ -12,8 +12,8 @@
 		1BF8D06EE16CCE36E66279CD /* LaunchScreen.xib in Sources */ = {isa = PBXBuildFile; fileRef = D73A265740B69AF9872D117F /* LaunchScreen.xib */; };
 		4D1719B41BA8C9F600C8ED1C /* FISAppDelegateSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D1719B31BA8C9F600C8ED1C /* FISAppDelegateSpec.m */; };
 		5A2BC7F419A7E4069A2D480C /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 170BA10CE32B2647F85950FE /* FISAppDelegate.m */; };
-		5B89BBCE389387DBB12672FC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 421DDCAC4E070E660E9AED8B /* Images.xcassets */; };
-		6CDC06ACA2FB97DF19A5B4D6 /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = A72462C7B33982C17CDAEDD4 /* Main.storyboard */; };
+		5B89BBCE389387DBB12672FC /* Images.xcassets in Sources */ = {isa = PBXBuildFile; fileRef = 421DDCAC4E070E660E9AED8B /* Images.xcassets */; };
+		6CDC06ACA2FB97DF19A5B4D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A72462C7B33982C17CDAEDD4 /* Main.storyboard */; };
 		CA0B508F8D40E29E0E0EBAAD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D32884263D7F2B9D946441D /* main.m */; };
 /* End PBXBuildFile section */
 
@@ -253,7 +253,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5B89BBCE389387DBB12672FC /* Images.xcassets in Resources */,
+				6CDC06ACA2FB97DF19A5B4D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -297,8 +297,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B89BBCE389387DBB12672FC /* Images.xcassets in Sources */,
 				5A2BC7F419A7E4069A2D480C /* FISAppDelegate.m in Sources */,
-				6CDC06ACA2FB97DF19A5B4D6 /* Main.storyboard in Sources */,
 				1BF8D06EE16CCE36E66279CD /* LaunchScreen.xib in Sources */,
 				CA0B508F8D40E29E0E0EBAAD /* main.m in Sources */,
 			);
