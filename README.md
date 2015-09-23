@@ -26,15 +26,15 @@ Don't panic! This is because the test file `FISAppDelegateSpec.m` is looking for
 2 — Navigate to the `FISAppDelegate.h` header file and declare the same two methods from the previous lab:
 
   * `stringIsPalindrome:` which takes one `NSString` argument called `string` and returns a `BOOL`, and
-  * `stringByReversingString:` which takes on `NSString` argument called `string` and returns an `NSString`.
+  * `stringByReversingString:` which takes one `NSString` argument called `string` and returns an `NSString`.
 
-3 — Now Navigate to the `FISAppDelegate.m` implementation file and use autocomplete to define the implementation of `stringIsPalindrome:` to `return NO;` and the implementation of `stringByReversingString:` to `return nil;`.
+3 — Now, navigate to the `FISAppDelegate.m` implementation file and use autocomplete to define the implementation of `stringIsPalindrome:` to `return NO;` and the implementation of `stringByReversingString:` to `return nil;`.
 
-4 — You should now be able to run the tests with `⌘` `U`. You should see that most of the tests fail (the ones that succeed are negative checks). These are *test failures*, not errors, and are marked with a red diamond containing an "x". Successes are marked with green diamond containing a check mark.
+4 — You should now be able to run the tests with `⌘` `U`. You should see that most of the tests fail (the ones that succeed are negative checks). These are *test failures*, **not** errors, and are marked with a red diamond containing an "x". Successes are marked with a green diamond containing a check mark.
 
 ![](https://curriculum-content.s3.amazonaws.com/ios/ios-objc-fundamentals-unit/palindrome_test_failures.png)
 
-You can (temporarily) drag the Navigator area's pane out to the right in order to view the descriptions of each test, which can sometimes be rather long. Unfortunately there is not a way to get Xcode to wrap this text to a new line in the Navigator area so dragging the pane wider is common practice.
+You can (temporarily) drag the Navigator area's pane out to the right in order to view the descriptions of each test, which can sometimes be rather long. Unfortunately there is not a way to get Xcode to wrap this text to a new line in the Navigator area so dragging the pane to be wider is common practice.
 
 Alternatively, you can view the test results in the Results navigator by clicking on the right-most symbol in the top of the Navigator area:
 
@@ -42,7 +42,7 @@ Alternatively, you can view the test results in the Results navigator by clickin
 
 **Note:** *The Results navigator is useful for comparing long test results that do not fit into the highlighted flags that appear in the Code Editor when viewing a test file.*
 
-5 — Insert the provided implementation for the `stringByReversingString:` method:
+5 — Insert the provided implementation for the `stringByReversingString:` method which returns a string that is the reverse of the argument string:
 
 ```objc
 - (NSString *)stringByReversingString:(NSString *)string {
