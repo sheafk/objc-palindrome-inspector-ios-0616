@@ -9,13 +9,13 @@
 
 ## Introduction
 
-Instead of relying on `NSLog()` statements to inspect our palindrome detector, lets rely on a testing suite that uses Specta and Expecta! The test file is already set up for you with the test strings and the method calls. You'll have to write out the method implementations a second time, but now you'll have the test failures and successes to guide you instead of doing it yourself from the `application:didFinishLaunchingWithOptions:` methods.
+Instead of relying on `NSLog()` statements to inspect our palindrome detector, let's rely on a testing suite that uses Specta and Expecta! The test file is already set up for you with the test strings and the method calls. You'll have to write out the method implementations a second time, but now you'll have the test failures and successes to guide you instead of doing it yourself from the `application:didFinishLaunchingWithOptions:` methods.
 
 ## Instructions
 
 Fork and clone this lab.
 
-Open the `objc-palindrome-inspector.xcworkspace` file. **Note:** *This the workspace, not the project. The workspace contains a second project that holds the testing library that we use.*
+Open the `objc-palindrome-inspector.xcworkspace` file. **Note:** *This is the workspace, not the project. The workspace contains a second project that holds the testing library that we use.*
 
 1 — Try to run the tests with `⌘` `U`. You should experience a build failure that generates a collection of errors because of missing method definitions.
 
