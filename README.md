@@ -86,3 +86,4 @@ Congratulations! You have solved your first tested lab. Your "local build" light
 ![](https://curriculum-content.s3.amazonaws.com/ios/ios-objc-fundamentals-unit/palindrome_local_build_green.png)
 
 Commit and push your solution to your remote fork. On GitHub, open a pull request to complete the lab.
+<a href='https://learn.co/lessons/objc-palindrome-inspector' data-visibility='hidden'>View this lesson on Learn.co</a>
