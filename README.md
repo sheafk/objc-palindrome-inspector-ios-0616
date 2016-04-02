@@ -63,7 +63,7 @@ Run the tests again with `⌘` `U`. You should see the tests for this method suc
 
 ![](https://curriculum-content.s3.amazonaws.com/ios/ios-objc-fundamentals-unit/palindrome_test_successes.png)
 
-6 — Now, solve the `stringIsPalindrome:` method step-by-step, relying on the testing suite to check each portion of the problem. Avoid copy/pasting your code from the code-along; try to rely on the tests to help you solve a familiar problem. Only reference the code-along if you get stuck. Remember, the initial steps to detect a single-world, all-lowercase palindrome is to:
+6 — Now, solve the `stringIsPalindrome:` method step-by-step, relying on the testing suite to check each portion of the problem. Avoid copy/pasting your code from the code-along; try to rely on the tests to help you solve a familiar problem. Only reference the code-along if you get stuck. Remember, the initial steps to detect a single-word, all-lowercase palindrome is to:
 
   * reverse the string,
   * compare the original string to its reverse, and
@@ -87,3 +87,5 @@ Congratulations! You have solved your first tested lab. Your "local build" light
 
 Commit and push your solution to your remote fork. On GitHub, open a pull request to complete the lab.
 <p data-visibility='hidden'>View <a href='https://learn.co/lessons/objc-palindrome-inspector' title='Palindrome Inspector'>Palindrome Inspector</a> on Learn.co and start learning to code for free.</p>
+
+<p data-visibility='hidden'>View <a href='https://learn.co/lessons/objc-palindrome-inspector'>Palindrome Inspector</a> on Learn.co and start learning to code for free.</p>
